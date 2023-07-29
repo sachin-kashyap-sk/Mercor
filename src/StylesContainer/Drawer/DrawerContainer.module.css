@@ -1,0 +1,178 @@
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #0d062d;
+}
+
+.firstContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input {
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+.inputContainer {
+  width: 30%;
+}
+
+.secContainer {
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+}
+
+.imageMain {
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+}
+
+.thirdContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-width: 20%;
+  justify-content: flex-end;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  min-width: 50%;
+}
+
+.forthContainer {
+  display: flex;
+  width: 30%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.myProject {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 7%;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+.text {
+  font-size: 12px;
+  font-weight: 700;
+  color: #787486;
+}
+
+.mobileApp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.subText {
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.title {
+  font-size: 15px;
+  font-weight: 500;
+  color: #787486;
+}
+
+.bottomMain {
+  display: flex;
+  justify-content: center;
+  padding-top: 15%;
+}
+.bottomContainer {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 25vh;
+  background-color: #d4e2d4;
+  position: absolute;
+  align-items: center;
+  border-radius: 16px;
+}
+
+.innerBottom {
+  display: flex;
+  position: relative;
+  width: 66px;
+  height: 66px;
+  bottom: 20px;
+  border-radius: 50%;
+  background-color: #faf3f0;
+  align-items: center;
+  justify-content: center;
+}
+
+.firstText {
+  font-weight: 500;
+  font-size: 14px;
+  color: #000000;
+}
+
+.secText {
+  font-size: 12px;
+  font-weight: 400;
+  color: #787486;
+  padding: 2%;
+}
+@media (max-width: 575.98px) {
+  .input {
+    width: auto;
+  }
+  .inputContainer {
+    width: 50%;
+  }
+
+  .secContainer {
+    width: auto;
+    justify-content: center;
+  }
+  .imageMain {
+    width: auto;
+  }
+  .thirdContainer {
+    width: auto;
+  }
+
+  .textContainer {
+    align-items: flex-start;
+    width: 40%;
+  }
+  .forthContainer {
+    width: auto;
+  }
+}
+@media (max-width: 1250px) {
+  .textContainer {
+    align-items: flex-start;
+  }
+  .input {
+    width: auto;
+  }
+
+  .secContainer {
+    width: 40%;
+  }
+  .imageMain {
+    width: auto;
+  }
+  .thirdContainer {
+    width: auto;
+  }
+  .forthContainer {
+    width: auto;
+  }
+}

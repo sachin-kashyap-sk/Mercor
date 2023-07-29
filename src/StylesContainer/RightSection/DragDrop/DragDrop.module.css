@@ -1,0 +1,182 @@
+.masterContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 3%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background-color: #f5f5f5;
+  padding: 1%;
+  padding-top: 0%;
+  border-radius: 16px;
+  padding-top: 2%;
+}
+
+.dotContainer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 3%;
+}
+
+.firstContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: pink; */
+}
+
+.secContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 40%;
+  padding-top: 5%;
+}
+
+.thirdContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 25%;
+  padding-top: 3%;
+}
+
+.innerFirst {
+  display: flex;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #eeeded;
+  justify-content: center;
+}
+
+.dragFirst {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 3%;
+}
+.firstTodo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerText {
+  font-size: 18px;
+  font-weight: 600;
+}
+.mainText {
+  font-size: 12px;
+  font-weight: 400;
+  color: #787486;
+}
+
+.commentText {
+  font-size: 12px;
+  font-weight: 500;
+  color: #787486;
+}
+
+.folderText {
+  font-size: 12px;
+  font-weight: 500;
+  color: #787486;
+}
+
+.text {
+  font-size: 16px;
+  font-weight: 800;
+  color: #0d062d;
+}
+
+.todoText {
+  font-size: 16px;
+  font-weight: 500;
+  color: #0d062d;
+}
+
+.folderContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.commentContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.msgMain {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.avatarHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 4%;
+}
+
+.titleContainer {
+  display: flex;
+  height: 23px;
+  border-radius: 4px;
+  color: #d58d49;
+  background-color: #ffddcc;
+  align-items: center;
+  justify-content: center;
+  padding: 1%;
+}
+
+@media (max-width: 575.98px) {
+  .container {
+    width: auto;
+    padding: 2%;
+    margin-bottom: 5%;
+  }
+
+  .masterContainer {
+    flex-direction: column;
+    padding-top: 5%;
+    margin-bottom: 3%;
+  }
+}
+@media (max-width: 1250px) {
+  .container {
+    width: auto;
+    margin-bottom: 4%;
+    padding: 2%;
+  }
+  .masterContainer {
+    flex-direction: column;
+    padding-top: 5%;
+    margin-bottom: 3%;
+  }
+  .containerName {
+    width: auto;
+  }
+}
